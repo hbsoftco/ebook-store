@@ -1,0 +1,23 @@
+{
+    "name": "backend-ebook-store",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/node": "^7.8.7",
+        "@babel/preset-env": "^7.9.5",
+        "sequelize-cli": "^5.5.1"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mariadb": "^2.3.1",
+        "sequelize": "^5.21.6"
+    }
+}
