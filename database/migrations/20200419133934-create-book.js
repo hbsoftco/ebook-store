@@ -26,6 +26,9 @@ module.exports = {
       price: {
         type: Sequelize.STRING
       },
+      price_with_discount: {
+        type: Sequelize.STRING
+      },
       publish_date: {
         type: Sequelize.DATE
       },
@@ -37,6 +40,9 @@ module.exports = {
       },
       description: {
         type: Sequelize.STRING
+      },
+      rate: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
